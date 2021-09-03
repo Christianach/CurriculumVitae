@@ -32,11 +32,9 @@ li.elLi a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover:not(.active) {
   background-color: #111;
 }
-
 .active {
   background-color: #46bd4a86;
   display: block;
@@ -47,6 +45,7 @@ li a:hover:not(.active) {
 }
 .active:hover{
   background-color: #347a36;
+  color: white;
 }
 div.borderDemo {
   position: absolute;
