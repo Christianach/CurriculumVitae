@@ -1,0 +1,64 @@
+body{
+  background-image: url(https://bailantafit.com/wp-content/uploads/2018/10/fondo-claro-768x432.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bod{
+  width: 50%;
+  margin: auto;
+}
+a,p,ul{
+  font-family: 'Roboto Mono', monospace;
+}
+ul.unOr {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(167, 157, 157, 0.507);
+}
+
+li.elLi {
+  float: left;
+}
+
+li.elLi a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #46bd4a86;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.active:hover{
+  background-color: #347a36;
+}
+div.borderDemo {
+  position: absolute;
+  border-radius: 40px 40px 40px 40px;
+  background-color: aliceblue;
+  color: rgb(3, 16, 27);
+  width: 100px;
+  text-align: center;
+  }
+div.lleno{
+  position: relative;
+  border-radius: 40px 40px 40px 40px;
+  color: rgba(0, 0, 255, 0);
+  background-color: rgba(0, 0, 255, 0.37);
+}
