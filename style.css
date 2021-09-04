@@ -7,6 +7,12 @@ body{
   width: 50%;
   margin: auto;
 }
+.bo{
+  max-width: 50%;
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
 a,p,ul{
   font-family: 'Roboto Mono', monospace;
 }
@@ -20,7 +26,6 @@ ul.unOr {
   overflow: hidden;
   background-color: rgba(167, 157, 157, 0.507);
 }
-
 li.elLi {
   float: left;
 }
